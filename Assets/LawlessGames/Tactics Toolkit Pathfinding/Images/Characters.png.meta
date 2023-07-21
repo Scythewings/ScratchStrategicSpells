@@ -1,7 +1,16 @@
 fileFormatVersion: 2
-guid: 3889882fbec2b6647afc0f8da7a5083b
+guid: cc8cb170ff11da442bedd0e9e3be0e9a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3542127132570728493
+    second: Characters_0
+  - first:
+      213: -1960546628078278901
+    second: Characters_1
+  - first:
+      213: 8248543377919322394
+    second: Characters_2
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -50,7 +59,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -65,7 +74,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -85,7 +94,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,7 +107,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,85 +119,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tank-blue_0
+      name: Characters_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 9
         y: 0
-        width: 13
-        height: 20
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a5458941189490439e562f22522daa6
-      internalID: -1972312226
+      spriteID: d28b62e2cd9282130800000000000000
+      internalID: 3542127132570728493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tank-blue_1
+      name: Characters_1
       rect:
         serializedVersion: 2
-        x: 13
+        x: 40
         y: 0
-        width: 13
-        height: 20
+        width: 22
+        height: 16
       alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      pivot: {x: 0.38, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc156b5b348de614ca9e45198da37ffe
-      internalID: -2046732565
+      spriteID: b07edcbaa3dbac4e0800000000000000
+      internalID: -1960546628078278901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tank-blue_2
+      name: Characters_2
       rect:
         serializedVersion: 2
-        x: 29
+        x: 75
         y: 0
         width: 12
-        height: 20
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b3da988f65e2214583ebd7d2bba4fc5
-      internalID: 998175404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tank-blue_3
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 0
-        width: 15
-        height: 20
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6733b8225942144283675838b5db739
-      internalID: -1963754682
+      spriteID: a192843ef76b87270800000000000000
+      internalID: 8248543377919322394
       vertices: []
       indices: 
       edges: []
@@ -204,10 +192,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tank-blue_0: -1972312226
-      tank-blue_1: -2046732565
-      tank-blue_2: 998175404
-      tank-blue_3: -1963754682
+      Characters_0: 3542127132570728493
+      Characters_1: -1960546628078278901
+      Characters_2: 8248543377919322394
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
